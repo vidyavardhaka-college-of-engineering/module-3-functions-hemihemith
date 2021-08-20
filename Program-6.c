@@ -5,8 +5,9 @@
 	
 	#include<stdio.h>
 	int sum(int a,int b)
-	{
-	    //Complete the missing code
+	{ int c;
+	   c=a+b;
+     return c; //Complete the missing code
 	}
 	int main()
 	{
@@ -17,3 +18,4 @@
 	    printf("%d",var3);
 	    return 0;
 	}
+
